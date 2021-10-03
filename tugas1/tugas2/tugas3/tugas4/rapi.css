@@ -1,0 +1,6 @@
+@media only screen and (max-width: 768px) {
+    .btn-primary, .btn-outline-success {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,52 @@
+body{
+    background: rgb(154, 218, 135);
+}
+
+.container{
+    top: 50%;
+    left: 50%
+    
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 30;
+    margin: 2;
+    border: none;
+    color: rgb(117, 236, 245);
+    cursor: pointer;
+    background: rgb(68, 28, 28);
+}
+
+.button2{
+    width: 50px;
+    height: 100px;
+    font-size: 30;
+    margin: 2;
+    border: none;
+    color: rgb(117, 236, 245);
+    cursor: pointer;
+    background: rgb(68, 28, 28);
+
+}
+.button:hover{
+    width: 50px;
+    height: 50px;
+    font-size: 30;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background: turquoise;
+}
+
+.hasil{
+    width: 50%;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    background: cornsilk;
+    opacity: .7;
+}

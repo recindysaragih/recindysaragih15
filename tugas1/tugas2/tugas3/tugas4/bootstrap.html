@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/rapi.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container mb-5">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">PROWEB</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tutorial
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Hubungi</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button type="button" class="btn btn-primary" onclick='jacascript:alert("Halo... Selamat Datang di website saya:)")' href='#'>Masuk</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Daftar</button>
+          </form>
+        </div>
+    </nav>
+    </div>
+    <section>
+        <div class="container">
+          <div class="row">
+            <div class="col align-self-center">   
+                <h1 style="font-family: 'Josefin Sans', sans-serif;"> Hai <br/>Selamat datang di proweb</h1>
+                <p class="mt-3 mb-4">
+                    Belajar pemrograman web mulai dari hmtl,css,js,php,mysql
+                </p>
+                <button type="button" class="btn btn-warning" onclick='jacascript:alert("Untuk selanjutnya bisa scroll kebawah ya guys, lalu klik tombol Lihat;)")' href='#'>Mulai</button>
+            </div>
+            <div class="col d-none d-lg-block d-xl-block">
+                <img src="images/FOTOjs.png" alt="foto" />
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid py-5">
+      <div class="container">
+        <h3 class="text-center mb-5">You Might Also Like</h3>
+
+    <div class="card-deck">
+      <div class="card bg-dark text-white">
+        <img src="images/bunga1.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Bunga Tulip</h5>
+          <p class="card-text">Tulip adalah bunga cinta klasik. Orang Turki yang awalnya memelihara bunga ini menganggapnya sebagai simbol surga di bumi, menjadikannya bagian dari banyak puisi dan karya seni religius dan sekuler. </p>
+          <a href="file/flowers.html"><button class="btn btn-info">Lihat</button></a>
+        </div>
+      </div>
+    
+      <div class="card bg-dark text-white">
+        <img src="images/bunga2.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Bunga Tsubaki(camellia)</h5>
+          <p class="card-text">Bunga camellia berasal dari keluarga Theaceae, yang memiliki nama ilmiah Camellia japonica adalah salah satu pohon berbunga paling terkenal di Jepang.</p>
+          <a href="file/flowers2.html"><button class="btn btn-info">Lihat</button></a> 
+        </div>
+      </div>
+    
+      <div class="card bg-dark text-white">
+        <img src="images/bunga3.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Bunga Clematis</h5>
+          <p class="card-text">Bunga clematis adalah jenis tanaman herbal yang tak hanya punya rupa yang cantik, tapi ternyata memiliki segudang manfaat bagi kesehatan.</p>
+          <a href="file/flowers3.html"><button class="btn btn-info">Lihat</button></a>
+        </div>
+      </div>
+    </div>
+   
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
+
